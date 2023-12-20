@@ -22,7 +22,7 @@ import com.sist.dao.*;
  *           => @RequestMapping을 찾아서 메소드 호출 
  */
 public class MainModel {
-  @RequestMapping("main/main.do")
+  @RequestMapping("main/main.do") 
   public String main_main(HttpServletRequest request,
 		  HttpServletResponse response)
   {
